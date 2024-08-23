@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-23T21:36:04 IST" name="Suite" finished-at="2024-08-23T21:36:20 IST" duration-ms="15867">
+    <groups>
+    </groups>
+    <test started-at="2024-08-23T21:36:04 IST" name="Test" finished-at="2024-08-23T21:36:20 IST" duration-ms="15867">
+      <class name="testCases.TC_001_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_LoginTest@53fb3dab]" started-at="2024-08-23T21:36:05 IST" name="setup" finished-at="2024-08-23T21:36:09 IST" duration-ms="4146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login_valid_credentials()[pri:1, instance:testCases.TC_001_LoginTest@53fb3dab]" started-at="2024-08-23T21:36:09 IST" name="verify_login_valid_credentials" finished-at="2024-08-23T21:36:13 IST" duration-ms="3813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_valid_credentials -->
+        <test-method signature="verify_login_invalid_credentials()[pri:2, instance:testCases.TC_001_LoginTest@53fb3dab]" started-at="2024-08-23T21:36:13 IST" name="verify_login_invalid_credentials" finished-at="2024-08-23T21:36:14 IST" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_invalid_credentials -->
+        <test-method signature="verify_login_invalid_username()[pri:3, instance:testCases.TC_001_LoginTest@53fb3dab]" started-at="2024-08-23T21:36:14 IST" name="verify_login_invalid_username" finished-at="2024-08-23T21:36:15 IST" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_invalid_username -->
+        <test-method signature="verify_login_invalid_password()[pri:4, instance:testCases.TC_001_LoginTest@53fb3dab]" started-at="2024-08-23T21:36:15 IST" name="verify_login_invalid_password" finished-at="2024-08-23T21:36:17 IST" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_invalid_password -->
+        <test-method signature="verify_login_empty_data()[pri:5, instance:testCases.TC_001_LoginTest@53fb3dab]" started-at="2024-08-23T21:36:17 IST" name="verify_login_empty_data" finished-at="2024-08-23T21:36:18 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_empty_data -->
+        <test-method signature="verify_login_empty_username()[pri:6, instance:testCases.TC_001_LoginTest@53fb3dab]" started-at="2024-08-23T21:36:18 IST" name="verify_login_empty_username" finished-at="2024-08-23T21:36:18 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_empty_username -->
+        <test-method signature="verify_login_empty_pswd()[pri:7, instance:testCases.TC_001_LoginTest@53fb3dab]" started-at="2024-08-23T21:36:18 IST" name="verify_login_empty_pswd" finished-at="2024-08-23T21:36:19 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_empty_pswd -->
+        <test-method signature="verify_login_space_data()[pri:8, instance:testCases.TC_001_LoginTest@53fb3dab]" started-at="2024-08-23T21:36:19 IST" name="verify_login_space_data" finished-at="2024-08-23T21:36:20 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login_space_data -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_LoginTest@53fb3dab]" started-at="2024-08-23T21:36:20 IST" name="teardown" finished-at="2024-08-23T21:36:20 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
